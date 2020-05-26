@@ -1,23 +1,37 @@
+/* Global Styles
+--------------------------------------------------------*/
 img {
   width: 300px;
 }
 
 body {
-  background-color: #474954;
+  color: dimgray;
 }
 
-h1 {
-  color: dodgerblue;
+/* Profile
+--------------------------------------------------------*/
+header {
+  background: #f487b6;
+  color: #fff3f0;
 }
 
-h2 {
-  color: #7cd3dc;
+/* Projects
+--------------------------------------------------------*/
+.projects {
+  background: #ae1621;
+  color: #bfdbf7;
+
 }
 
-h3 {
-  color:#85c7f2;
+/* Work Experience
+--------------------------------------------------------*/
+.work-experience {
+  background: #e94f37;
+  color: #393e41;
 }
 
-p {
-  color: white;
-}
+/* Education
+--------------------------------------------------------*/
+
+/* Contact Info
+--------------------------------------------------------*/
