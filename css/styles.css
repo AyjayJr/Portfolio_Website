@@ -16,6 +16,7 @@ img {
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   color: black;
   margin: 0;
   padding: 0;
@@ -31,6 +32,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
 }
 
 h2 {
