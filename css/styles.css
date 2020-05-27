@@ -17,6 +17,8 @@ img {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
   color: black;
   margin: 0;
   padding: 0;
@@ -34,12 +36,19 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2 {
-  font-family: 'Kaushan Script', cursive;
+h1 {
+  font-size: 100px;
+  line-height: 1.5;
 }
 
 h2 {
-  margin:0;
+  font-size: 45px;
+}
+
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  margin: 0;
 }
 
 .content-wrap {
