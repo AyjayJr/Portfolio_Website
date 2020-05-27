@@ -1,3 +1,14 @@
+/* Color Palette
+#e63946 - Imperial Red - header
+#f1faee - Honeydew - projects
+#a8dadc - Powder blue - work exp
+#457b9d - Steel blue - education
+#1d3557 - Prussian blue - footer
+text color?
+link colors?
+-hover?
+-visited?
+
 /* Global Styles
 --------------------------------------------------------*/
 img {
@@ -20,6 +31,11 @@ a:hover {
   text-decoration: none;
 }
 
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
 /* Profile
 --------------------------------------------------------*/
 header {
@@ -39,15 +55,15 @@ header {
 }
 
 .projects .btn {
-  background: #f487b6;
   color: black;
+  background: #f487b6;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
 }
 
-.projects a:hover {
-  background: rgba(244, 135, 182, 100);
+.projects .btn:hover {
+  background: rgba(244, 135, 182, 90%);
 }
 
 
