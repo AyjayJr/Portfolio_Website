@@ -15,6 +15,16 @@ img {
   width: 300px;
 }
 
+/* Box Model fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* ------------- */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -70,9 +80,24 @@ header {
   /*color: #bfdbf7;*/
 }
 
-.projects a {
-
+/* Self-Clear */
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed black;
+  padding: 25px 0;
 }
+
+/* Parent must be self-cleared */
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+
 
 .projects .btn {
   color: black;
