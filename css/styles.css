@@ -74,7 +74,7 @@ h3 {
 }
 
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -149,7 +149,14 @@ header {
 /* Education
 --------------------------------------------------------*/
 .education {
-  background: #457b9d;
+  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+
+.education p {
+  width: 60%;
 }
 
 /* Contact Info
