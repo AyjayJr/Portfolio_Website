@@ -61,16 +61,39 @@ h1, h2 {
   margin: 0;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
+.item-details h3 + p {
+  font-style: italic;
+}
+
+.item-details h3 ~ p {
+  margin: 0;
+}
+
 .content-wrap {
   width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
 
+.divider > section {
+  border-bottom: 1px dashed black;
+  padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-style: none;
+}
+
+
 /* Profile
 --------------------------------------------------------*/
 header {
   background: #e63946;
+  color: #f1faee;
   text-align: center;
 }
 
@@ -84,8 +107,6 @@ header {
 /* Self-Clear */
 .project-item {
   overflow: hidden;
-  border-bottom: 1px dashed black;
-  padding: 25px 0;
 }
 
 /* Parent must be self-cleared */
@@ -97,8 +118,6 @@ header {
 .project-item h3 {
   margin-top: 0;
 }
-
-
 
 .projects .btn {
   color: black;
@@ -119,6 +138,12 @@ header {
 .work-experience {
   background: #a8dadc;
   /*color: #393e41;*/
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
 }
 
 /* Education
